@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <h1> <center>MALLIPEDDU HARSHITHA</center></h1>
+ <nav>
+    <h3>
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#contact">Contact</a>
+    </h3>
+</nav>
+    </header>
+    <section id="about">
+        <p>
+I am a final year B.Tech student with a strong interest in technology and software development. 
+I have knowledge of Python, Java, and Frontend Development using HTML, CSS, and JavaScript. 
+I enjoy building user-friendly websites and solving programming problems. 
+I am a quick learner, hardworking, and always eager to improve my skills and learn new technologies. 
+My goal is to start my career in the IT industry and grow as a software developer.
+</p>
+<img src="images/image.jpg"  alt="profile photo" width="200">
+    </section>
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <h3>Technical skills</h3>
+        <ul>
+            <li>python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>DSA</li>
+        </ul>
+        <h3>Non technical Skills</h3>
+        <ul>
+            <li>good communication</li>
+            <li>teamwork</li>
+        </ul>
+    </section>
+<section id="contact">
+    <h2>Contact</h2>
+
+    <form id="contactForm">
+    <input type="text" id="name" placeholder="Name" required><br><br>
+    <input type="email" id="email" placeholder="Email" required><br><br>
+    <textarea id="message" placeholder="Message"></textarea><br><br>
+    <button type="submit">Send</button>
+</form>
+
+<p id="formMsg"></p>
+
+<!-- Dark Mode Button -->
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+<!-- Link JS -->
+<script src="script.js"></script>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Harshitha</p>
+</footer>
+</body>
+</html>
